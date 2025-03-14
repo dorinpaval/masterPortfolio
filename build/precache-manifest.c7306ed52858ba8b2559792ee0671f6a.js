@@ -57,7 +57,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     revision: "be4f4800caf3d342509c1af959ff434d",
-    url: "./static/media/animated_ashutosh.be4f4800.png",
+    url: "./static/media/animated_Stelica.be4f4800.png",
   },
   {
     revision: "dcd6dee2bd7458a4a576dc131506fd83",

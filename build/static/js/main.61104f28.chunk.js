@@ -5,7 +5,7 @@
     function (e, t, a) {
       var l = {
         "./address_image.svg": 168,
-        "./animated_ashutosh.png": 169,
+        "./animated_Stelica.png": 169,
         "./animated_logo.svg": 170,
         "./aws-logo.png": 171,
         "./bearingpoint.png": 172,
@@ -188,7 +188,7 @@
       e.exports = a.p + "static/media/address_image.16559172.svg";
     },
     function (e, t, a) {
-      e.exports = a.p + "static/media/animated_ashutosh.be4f4800.png";
+      e.exports = a.p + "static/media/animated_Stelica.be4f4800.png";
     },
     function (e, t, a) {
       e.exports = a.p + "static/media/animated_logo.dcd6dee2.svg";
