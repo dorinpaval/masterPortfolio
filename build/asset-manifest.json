@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.63e8d789.chunk.css",
-    "main.js": "./static/js/main.a1e71fff.chunk.js",
-    "main.js.map": "./static/js/main.a1e71fff.chunk.js.map",
+    "main.js": "./static/js/main.61104f28.chunk.js",
+    "main.js.map": "./static/js/main.61104f28.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.fff6ee50.js",
     "runtime-main.js.map": "./static/js/runtime-main.fff6ee50.js.map",
-    "static/js/2.5a62beba.chunk.js": "./static/js/2.5a62beba.chunk.js",
-    "static/js/2.5a62beba.chunk.js.map": "./static/js/2.5a62beba.chunk.js.map",
+    "static/js/2.c9e08959.chunk.js": "./static/js/2.c9e08959.chunk.js",
+    "static/js/2.c9e08959.chunk.js.map": "./static/js/2.c9e08959.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.479b2788d770432100050d04697142fd.js": "./precache-manifest.479b2788d770432100050d04697142fd.js",
+    "precache-manifest.c7306ed52858ba8b2559792ee0671f6a.js": "./precache-manifest.c7306ed52858ba8b2559792ee0671f6a.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.63e8d789.chunk.css.map": "./static/css/main.63e8d789.chunk.css.map",
     "static/media/index.css": "./static/media/Montserrat-Regular.ee653992.ttf",
@@ -16,6 +16,7 @@
     "static/media/animated_ashutosh.png": "./static/media/animated_ashutosh.be4f4800.png",
     "static/media/animated_logo.svg": "./static/media/animated_logo.dcd6dee2.svg",
     "static/media/aws-logo.png": "./static/media/aws-logo.65cd97c1.png",
+    "static/media/bearingpoint.png": "./static/media/bearingpoint.def5ecd0.png",
     "static/media/blogs_image.svg": "./static/media/blogs_image.058eca4c.svg",
     "static/media/cloud_infrastructure.svg": "./static/media/cloud_infrastructure.cacbc42b.svg",
     "static/media/codeInLogo.png": "./static/media/codeInLogo.fee92c18.png",
@@ -39,6 +40,7 @@
     "static/media/itil-logo.png": "./static/media/itil-logo.764df6a4.png",
     "static/media/jsFramework.svg": "./static/media/jsFramework.5b4a6449.svg",
     "static/media/legato_logo.png": "./static/media/legato_logo.c597fbde.png",
+    "static/media/logiscool.png": "./static/media/logiscool.d4c7472d.png",
     "static/media/manOnTable.svg": "./static/media/manOnTable.83ac24fb.svg",
     "static/media/miu-logo.png": "./static/media/miu-logo.cad62e86.png",
     "static/media/muffito_logo.png": "./static/media/muffito_logo.069938a8.png",
@@ -48,16 +50,20 @@
     "static/media/programmer.svg": "./static/media/programmer.5faf790b.svg",
     "static/media/projects_image.svg": "./static/media/projects_image.b8ba9487.svg",
     "static/media/pwa.png": "./static/media/pwa.71408db7.png",
+    "static/media/self.webp": "./static/media/self.87d597d1.webp",
+    "static/media/self.jpeg": "./static/media/self.97c5996f.jpeg",
     "static/media/stanford_logo.png": "./static/media/stanford_logo.2c497738.png",
     "static/media/talksCardBack.svg": "./static/media/talksCardBack.6ac91b16.svg",
     "static/media/talksCardBackAlt.svg": "./static/media/talksCardBackAlt.3fa54242.svg",
     "static/media/udemy-logo.png": "./static/media/udemy-logo.bd18d6ff.png",
-    "static/media/ui_ux_design.svg": "./static/media/ui_ux_design.d6363089.svg"
+    "static/media/ui_ux_design.svg": "./static/media/ui_ux_design.d6363089.svg",
+    "static/media/yardi.jpeg": "./static/media/yardi.3c1065be.jpeg",
+    "static/media/yardi.png": "./static/media/yardi.8ffd6bbd.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fff6ee50.js",
-    "static/js/2.5a62beba.chunk.js",
+    "static/js/2.c9e08959.chunk.js",
     "static/css/main.63e8d789.chunk.css",
-    "static/js/main.a1e71fff.chunk.js"
+    "static/js/main.61104f28.chunk.js"
   ]
 }

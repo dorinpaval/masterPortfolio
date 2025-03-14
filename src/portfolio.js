@@ -7,33 +7,45 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Stelica's Portfolio",
+  title: "Stelica Paval | Software Engineer & Web Developer",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Experienced Software Engineer specializing in scalable web development, cloud solutions, and modern front-end & back-end technologies. Passionate about building high-performance applications with React, Angular, Node.js, and AWS.",
   og: {
-    title: "Stelica Paval Portfolio",
+    title: "Stelica Paval | Portfolio & Projects",
     type: "website",
-    url: "http://stelipaval.com/",
+    url: "https://stelipaval.com/",
+    description:
+      "Explore the portfolio of Stelica Paval, a skilled software engineer with expertise in full-stack development, cloud computing, and scalable web solutions.",
+    image: "https://stelipaval.com/preview.jpg", // Add a high-quality Open Graph image for social sharing
   },
+  keywords: [
+    "Software Engineer",
+    "Web Developer",
+    "Full-Stack Developer",
+    "React",
+    "Angular",
+    "Node.js",
+    "AWS",
+    "Cloud Computing",
+    "Scalable Web Apps",
+  ],
 };
 
 //Home Page
 const greeting = {
   title: "Stelica Paval",
   logo_name: "Stelica Paval",
-  nickname: "Full Stack Developer",
-  subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:
-    "https://drive.google.com/",
-  portfolio_repository: "https://github.com/dorinpaval",
-  githubProfile: "https://github.com/dorinpaval",
+  nickname: "Software Engineer",
+  subTitle: `I specialize in creating software solutions that focus on making things run smoothly, efficiently, and in a way that provides the best experience for users. I enjoy tackling challenges and building systems that are both easy to use and reliable.`,
+  resumeLink: "https://drive.google.com/",
+  portfolio_repository: "https://github.com/stelipaval",
+  githubProfile: "https://github.com/stelipaval",
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/dorinpaval",
+    link: "https://github.com/stelipaval",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
@@ -54,7 +66,7 @@ const socialMediaLinks = [
     link: "https://www.facebook.com/dorin.paval.1/",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  }
+  },
 ];
 
 const skills = {
@@ -63,9 +75,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using Angular & React-Redux",
+        "⚡ Building responsive website front end using Angular or ReactJS",
         "⚡ Developing mobile applications using React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & ASP.NET Core",
+        "⚡ Creating application backend in NodeJS, Express, .NET Core or Go",
       ],
       softwareSkills: [
         {
@@ -83,17 +95,17 @@ const skills = {
           },
         },
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
           style: {
-            color: "#E34F26",
+            color: "#007acc",
           },
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          skillName: "Next.js",
+          fontAwesomeClassname: "simple-icons:nextdotjs",
           style: {
-            color: "#1572B6",
+            color: "#222222",
           },
         },
         {
@@ -104,6 +116,14 @@ const skills = {
             color: "#F7DF1E",
           },
         },
+
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "simple-icons:nodedotjs",
+          style: {
+            color: "#339933",
+          },
+        },
         {
           skillName: "C#",
           fontAwesomeClassname: "simple-icons:csharp",
@@ -112,17 +132,17 @@ const skills = {
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          skillName: ".Net Core",
+          fontAwesomeClassname: "simple-icons:dotnet",
           style: {
-            color: "#339933",
+            color: "#2C8EBB",
           },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          skillName: "GoLand",
+          fontAwesomeClassname: "simple-icons:goland",
           style: {
-            color: "#CB3837",
+            color: "#222222",
           },
         },
       ],
@@ -136,13 +156,6 @@ const skills = {
         "⚡ Deploying deep learning models on cloud to use on mobile devices",
       ],
       softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
@@ -190,45 +203,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:kubernetes",
           style: {
             color: "#326CE5",
-          },
-        },
-      ],
-    },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Photoshop",
-          fontAwesomeClassname: "simple-icons:adobephotoshop",
-          style: {
-            color: "#001E36",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
           },
         },
       ],
@@ -348,25 +322,59 @@ const certifications = {
 
 // Experience Page
 const experience = {
-  title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  title: "Work, Internship and Mentorship",
+  subtitle: "",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "Software and web development professional with 6+ years of experience delivering technical systems, solutions, and tools to business and private clients across diverse operational platforms internationally. Experienced in full system development lifecycle, including backend and frontend functions. I am working effectively in independent and team environments as well, across the phases of software development life cycle for front and back end applications.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
         {
-          title: ".NET Developer",
-          company: "Yardi Systems",
-          company_url: "https://www.yardi.com/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2018 - June 2021",
+          title: "Software Engineer II",
+          company: "Terminus",
+          company_url: "https://terminus.com/",
+          logo_path: "terminus.png",
+          duration: "Mar 2023 - Feb 2025",
+          location: "Remote",
+          description: [
+            "Developed scalable, high-performance web applications using using Angular with RxJS and NgRx for brownfield apps and React with Redux for greenfield development, optimizing UI responsiveness and user experience. ",
+            "Implemented interactive AmCharts to improve data visualization and analysis while lowering chart rendering time by 30% via lazy loading, memorization, and efficient change detection. ",
+            "Designed and connected RESTful APIs using NodeJS and Express, allowing for easy data extraction from Salesforce and HubSpot to simplify ABM campaign analytics.",
+            "Improved development productivity by automating operations using CI/CD pipelines, unit testing (Jest), and Agile techniques, resulting in quicker deployments and higher software quality",
+          ],
+          color: "#610e53",
+        },
+        {
+          title: "Full Stack Developer",
+          company: "Self-Employed",
+          company_url: "",
+          logo_path: "self.jpeg",
+          duration: "Nov 2021 - May 2023",
+          location: "Remote",
+          description: [
+            "Designed and created scalable online apps utilizing React, Next.js, and Tailwind CSS, offering dynamic, responsive, and user-friendly interfaces across devices. ",
+            "Built and optimized RESTful APIs using Node.js and Express, guaranteeing fast server-side logic and smooth interaction with PostgreSQL and DynamoDB for scalable data management.",
+            "Implemented secure authentication and authorization procedures, incorporating JWT security standards to safeguard sensitive data and boost API security ",
+            "Deployed and maintained serverless apps on AWS, employing Lambda, API Gateway, and S3 to provide cost-efficient scalability and decreased infrastructure overhead.",
+          ],
+          color: "#610e53",
+        },
+        {
+          title: "Software Engineer",
+          company: "BearingPoint",
+          company_url: "https://www.bearingpoint.com/en-us/",
+          logo_path: "bearingpoint.png",
+          duration: "Sept 2017 - Sept 2021",
           location: "Bucharest, Romania",
-          description:
-            "Used  ASP.NET , VB.NET, C#, and JavaScript to design and develop new sites and web-based solutions, both front end and back end",
-          color: "#fc1f20",
+          description: [
+            "Developed and maintained full-stack web applications with .NET Core, C#, ASP.NET, and Angular, resulting in high-performance, scalable solutions.",
+            "Designed and optimized database structures using SQL Server and LINQ2SQL, resulting in improved data integrity and a 20% reduction in query execution time.",
+            "Improved backend performance by improving data models, indexing algorithms, and query optimization, resulting in a 15% reduction in load times.",
+            "Contributed to automated testing, CI/CD pipelines, and debugging efforts, resulting in fast deployments and ongoing application dependability.",
+          ],
+          color: "#610e53",
         },
       ],
     },
@@ -375,43 +383,45 @@ const experience = {
       experiences: [
         {
           title: "Software Developer Intern",
-          company: "BearingPoint",
-          company_url: "https://www.bearingpoint.com/en-us/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2017 - Sept 2017",
+          company: "Yardi Systems",
+          company_url: "https://www.yardi.com/",
+          logo_path: "yardi.jpeg",
+          duration: "May 2017 - Jul 2017",
           location: "Bucharest, Romania",
-          description:
+          description: [
             "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
+          ],
+          color: "#610e53",
         },
       ],
     },
     {
-      title: "Tutoring",
+      title: "Mentorships",
       experiences: [
         {
-          title: "Kids Coding Instructor",
-          company: "Logiscool",
-          company_url: "https://www.logiscool.com/gb/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
+          title: "Teacher Assistant",
+          company: "Maharishi International University",
+          company_url: "https://msd.miu.edu",
+          logo_path: "miu-logo.png",
+          duration: "Mar 2022 - Dec 2022",
+          location: "Fairfield, IA",
+          description: [
+            "Grading homework, exams and working with weak students to better understand the topics. I have also helped students in their projects and assignments.",
+          ],
+          color: "#610e53",
         },
-        
+
         {
-          title: "Developer Students Club Member",
-          company: "University of Bucharest",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "iiitk_logo.png",
-          duration: "Jan 2018 - May 2020",
+          title: "Programming instructor",
+          company: "Logiscool",
+          company_url: "https://www.logiscool.com/ro/",
+          logo_path: "logiscool.png",
+          duration: "Feb 2019 - Jan 2020",
           location: "Bucharest, Romania",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
+          description: [
+            "Teaching children (5-15 y.o.) basics of AI, Python and Unity. I have helped them understanding the concepts by playing games and doing exercises.",
+          ],
+          color: "#610e53",
         },
       ],
     },
@@ -434,8 +444,7 @@ const publicationsHeader = {
 };
 
 const publications = {
-  data: []
-    
+  data: [],
 };
 
 // Contact Page
@@ -455,10 +464,9 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "8101 W Jefferson Blvd, Los Angeles, CA 90016, United States of America",
+    subtitle: "17222 Brady, Redford Charter Twp, MI 48240, USA",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/yM3KcpJASue7GpiU7",
+    location_map_link: "https://goo.gl/maps/DBiWJTwofPSYMZNs7",
   },
   phoneSection: {
     title: "Phone Number",

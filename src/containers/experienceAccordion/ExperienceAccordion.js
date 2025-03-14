@@ -9,12 +9,13 @@ class ExperienceAccordion extends Component {
     return (
       <div className="experience-accord">
         <Accordion>
-          {this.props.sections.map((section) => {
+          {this.props.sections.map((section, index) => {
             return (
               <Panel
                 className="accord-panel"
                 title={section["title"]}
                 key={section["title"]}
+                expanded={index === 0}
                 overrides={{
                   Header: {
                     style: () => ({

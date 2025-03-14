@@ -59,7 +59,11 @@ class ExperienceCard extends Component {
             className="experience-card-description"
             style={{ color: theme.text }}
           >
-            {experience["description"]}
+            <ul>
+              {experience["description"].map((point, index) => (
+                <li key={index}>{point}</li>
+              ))}
+            </ul>
           </p>
         </div>
       </div>

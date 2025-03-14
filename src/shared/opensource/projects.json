@@ -1,64 +1,234 @@
 {
-    "data": [
+  "data": [
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTI=",
+      "name": "Social App",
+      "createdAt": "2023-01-20T14:24:55Z",
+      "url": "https://stelpav-twitter.netlify.app/",
+      "description": "Crypto Tracker is a front-end SPA that uses the CoinGecko API to search for cryptocurrencies and display details about them in real time.",
+      "isFork": false,
+      "color": "#f0bbdf",
+      "languages": [
         {
-            "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-            "name": "Gym Exercises",
-            "createdAt": "2022-03-06T16:26:54Z",
-            "url": "https://gym-exercises-stelpaval.netlify.app/",
-            "description": "Webpage to show the exercises for different body parts. It is made using ReactJS and TailwindCSS.",
-            "isFork": false,
-            "languages": [
-                {
-                    "name": "HTML",
-                    "iconifyClass": "logos-html-5"
-                },
-                {
-                    "name": "CSS",
-                    "iconifyClass": "logos-nodejs"
-                },
-                {
-                    "name": "JavaScript",
-                    "iconifyClass": "logos-react"
-                }
-            ]
+          "name": "Next",
+          "iconifyClass": "logos:nextjs-icon"
         },
         {
-            "id": "MDEwOlJlcG9zaXRvcnkyNjkwNzUwMjM=",
-            "name": "PavStel Hotel",
-            "createdAt": "2022-09-03T11:53:55Z",
-            "url": "https://stelpav-hotel.netlify.app/",
-            "description": "PavStel Hotel is a website for a hotel. It has home page, rooms page, a services page, a contact page, and a login page.",
-            "isFork": false,
-            "languages": [
-                {
-                    "name": "HTML",
-                    "iconifyClass": "logos-mongodb"
-                },
-                {
-                    "name": "CSS",
-                    "iconifyClass": "logos-nodejs"
-                },
-                {
-                    "name": "JavaScript",
-                    "iconifyClass": "logos-react"
-                }
-            ]
+          "name": "Firebase",
+          "iconifyClass": "logos:firebase"
         },
         {
-            "id": "MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTE=",
-            "name": "Music Player App",
-            "createdAt": "2022-07-19T14:24:55Z",
-            "url": "https://github.com/dorinpaval/CS445-Project",
-            "description": "The project is a music player app that allows users to create playlists, add songs to playlists, and play songs.",
-            "isFork": false,
-            "languages": [
-                {
-                    "name": "JavaScript",
-                    "iconifyClass": "logos-javascript"
-                }
-            ]
+          "name": "React",
+          "iconifyClass": "logos:react"
         }
-       
-        
-    ]
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Gym Exercises",
+      "createdAt": "2022-03-06T16:26:54Z",
+      "url": "https://gym-exercises-stelpaval.netlify.app/",
+      "description": "Webpage to show the exercises for different body parts. It is made using ReactJS and TailwindCSS.",
+      "isFork": false,
+      "color": "#d2f0bb",
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "NodeJS",
+          "iconifyClass": "logos-nodejs"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNjkwNzUwMjM=",
+      "name": "PavStel Hotel",
+      "createdAt": "2022-09-03T11:53:55Z",
+      "url": "https://stelpav-hotel.netlify.app/",
+      "description": "PavStel Hotel is a website for a hotel. It has home page, rooms page, a services page, a contact page, and a login page.",
+      "isFork": false,
+      "color": "#bbf0c8",
+      "languages": [
+        {
+          "name": "MongoDB",
+          "iconifyClass": "logos-mongodb"
+        },
+        {
+          "name": "NodeJS",
+          "iconifyClass": "logos-nodejs"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTE=",
+      "name": "NikeStore",
+      "createdAt": "2021-12-16T14:24:55Z",
+      "url": "https://stelpav-nikestore.netlify.app/",
+      "description": "Ecommerce front-end for a Nike store. It is made using react-touch-carousel, react-hot-toast and lots of tailwind",
+      "isFork": false,
+      "color": "#bbd7f0",
+      "languages": [
+        {
+          "name": "Typescript",
+          "iconifyClass": "logos-typescript-icon-round"
+        },
+        {
+          "name": "Tailwind",
+          "iconifyClass": "logos-tailwindcss-icon"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTF=",
+      "name": "Puzzle App",
+      "createdAt": "2022-07-19T14:24:55Z",
+      "url": "https://stelpav-puzzleapp.netlify.app/",
+      "description": "This project is a game where you have to put the pieces of the puzzle in the right place. It is made using ReactJS, TailwindCSS and react-router-dom",
+      "isFork": false,
+      "color": "#f0d5bb",
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "Tailwind",
+          "iconifyClass": "logos-tailwindcss-icon"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTG=",
+      "name": "Restaurant App",
+      "createdAt": "2022-11-11T14:24:55Z",
+      "url": "https://stelpav-restaurant.netlify.app",
+      "description": "This front-end SPA is web application for a restaurant. It can be customized to offer more details about the food, reviews, and more.",
+      "isFork": false,
+      "color": "#e8f0bb",
+      "languages": [
+        {
+          "name": "Material UI",
+          "iconifyClass": "logos-material-ui"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTH=",
+      "name": "Youtube Simplified",
+      "createdAt": "2022-02-23T14:24:55Z",
+      "url": "https://stelpav-youtube.netlify.app",
+      "description": "Youtube Simplified is a front-end SPA that uses the Youtube API to search for videos and display them. It is made using ReactJS, TailwindCSS and react-router-dom",
+      "isFork": false,
+      "color": "#f0bbdf",
+      "languages": [
+        {
+          "name": "YouTube",
+          "iconifyClass": "logos-youtube"
+        },
+        {
+          "name": "Material UI",
+          "iconifyClass": "logos-material-ui"
+        },
+        {
+          "name": "Angular",
+          "iconifyClass": "logos-angular-icon"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTI=",
+      "name": "Crypto Tracker",
+      "createdAt": "2021-12-29T14:24:55Z",
+      "url": "https://stelpav-crypto-checker.netlify.app",
+      "description": "Crypto Tracker is a front-end SPA that uses the CoinGecko API to search for cryptocurrencies and display details about them in real time.",
+      "isFork": false,
+      "color": "#f0bbdf",
+      "languages": [
+        {
+          "name": "Tailwind",
+          "iconifyClass": "logos-tailwindcss-icon"
+        },
+        {
+          "name": "coinGecko",
+          "iconifyClass": "arcticons:coingecko"
+        },
+        {
+          "name": "Angular",
+          "iconifyClass": "logos-angular-icon"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTJ=",
+      "name": "Music App",
+      "createdAt": "2022-05-29T14:24:55Z",
+      "url": "https://stelpav-lyriks.netlify.app",
+      "description": "This music app is a front-end SPA used to search for songs and display lyrics in real time, similar to Spotify.",
+      "isFork": false,
+      "color": "#bbd7f0",
+      "languages": [
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "Redux",
+          "iconifyClass": "logos-redux"
+        },
+        {
+          "name": "Tailwind",
+          "iconifyClass": "logos-tailwindcss-icon"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTK=",
+      "name": "Dashboard",
+      "createdAt": "2022-05-02T14:24:55Z",
+      "url": "https://stelpav-dashboard.netlify.app",
+      "description": "This project is a front-end admin dashboard app with a lot of features, including four Apps, and seven fully functional charts",
+      "isFork": false,
+      "color": "#bbf0c8",
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "Tailwind",
+          "iconifyClass": "logos-tailwindcss-icon"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        }
+      ]
+    }
+  ]
 }
